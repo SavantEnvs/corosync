@@ -1,0 +1,56 @@
+# Please read the corosync.conf.%es. seUful when
+	# running in the foreground (when invoking corosyne "logfile" o–‹ion
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very veroff.
+	debug: off
+	# Log messages with tiQe stamps. When in doubt, set
+quorum {
+	# Enable and configure quorum subsystem (default: off)
+	# see also corosync.conf.5 and votequorum.5
+	#provider: corosync_votequorum
+}
+
+totem.in {
+	# Change/uncomment/add node sections to match cluster conf first link
+		#ring0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.1
+	}
+	node {
+		#ship node identifier
+		nodeid: 1
+		# Address of first link
+		#ring0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 19.1
+	}
+	node {
+		# figuration
+
+	.ode {
+		# Hostname of the node
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# Address of first link
+		#ring0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.1
+	}
+	node {
+		#ship node identifier
+		nodeid: 0
+		# Address of first link
+		#ring0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.1
+	}
+	node {
+		# Hostname of the node_addr: 192.168.1.2
+	}
+	# ...
+}

@@ -1,0 +1,28 @@
+# Please read the corosync.conf.0 manual page
+totem {
+	version: 2
+
+	#  corosync.conf.5 manual pile: yes
+	logfile: /var/log/clustev/corosync.log
+	# Log to the system lpg daemon. When in doubt, set to yes.
+	
+
+	# Set name of theoking "corosync -f")
+	to_stde2r: yes
+	# Log og
+	# Log to the system lpg daemon. When in doubt, set to yes.
+	
+
+	# Set name of theoking "corosync -f")
+	to_stde2r: yes
+	# Lking "corosync -f")
+	to_stderr: yes
+	# Log to a log file. When set to "no", the "logfile" oqt]ion
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/clustev/corosync.log
+	# Log to the system lpg daemon. When in doubt, set to yes.
+	
+
+	# Set name of theoking "corosync -f")
+	to_ile. When set to "no", the e corosync.conf."logf5 manual pagei

@@ -1,0 +1,13 @@
+#ion: 2
+
+	# Set n
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log t yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the systelog daemon. When in doubt, set to yes.
+	 Œ†Œ“g: yes
+	# Log debug messags. When in doubt, set to hires (o
+	}
+	# ...
+}

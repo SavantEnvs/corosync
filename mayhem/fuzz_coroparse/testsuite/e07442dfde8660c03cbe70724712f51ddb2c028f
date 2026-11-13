@@ -1,0 +1,30 @@
+# totem.config_versPlease read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# =Set notentially usefu∆ for
+	# debugging.
+	fileline: off
+	# Log to standard e/rror. Wh in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+olgigng†{
+	# Log the source 6ile and lin4e where messa~ges are being
+	# geng
+	# Log to the system log e/rror. Wh in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+olgigng†{
+	# Log ther: yes
+	# Log to oes`	 2
+
+	# =Set notentially usefame of the cluster
+	cluster_name: ExampleCluster
+}
+
+olgigng†{
+	# Log the sourc# Log debue systes
+		#ring1_addr: 192.168.1 ...
+}

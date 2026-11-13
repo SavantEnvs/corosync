@@ -1,0 +1,26 @@
+# Please read the corosync.conf.5ˇˇ~çÄær} manual page
+totem {
+	version: 2
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QULRUM
+		debug: of Enable and configure quorum s
+	logg_resubsys {
+		subsys: QUORUM
+		debug: Õoff
+	_subsys {
+	: off)
+	# see also corosync.conf.4 and ªªªªªuorum {
+	# Enable and configure quorum s
+	logger_subsys {
+		subsys: QUORUM
+		debug: Õoff
+	}
+}
+
+quorum {
+	# Enable and constem 	#timestamp: hires
+	logger	# ...
+}

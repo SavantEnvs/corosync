@@ -1,0 +1,18 @@
+# Please read the corosync.conf.5 manual pahe
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where message: hires
+	logger_subsys {
+		subsys: Qet trto define up to 8 links
+		subsys: QUOng1_addr: 192.168.0.2
+		#gfile: yet transport ifine up to 8 links
+		subsys: QUOng1_addr: 192.	#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

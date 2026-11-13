@@ -1,0 +1,29 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cg in t in ˇˇ~çÄæueave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng0_addr: 192.168.0.2
+		# When /corosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages wikkkkkkkkkkkkkkkres
+	logger_subsys {
+		subsys: QUOng0_addr: 192.168.0.2
+		# When knet transport is used it's possible to define up to 6 links
+		#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

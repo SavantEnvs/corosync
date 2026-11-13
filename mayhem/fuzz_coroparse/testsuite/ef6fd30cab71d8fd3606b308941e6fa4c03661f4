@@ -1,0 +1,58 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum s
+	logger_subsys {
+		subsys: Q¥ORUM
+		debug: Íoff
+	_subsys {
+	: off)
+	# see also corosync.conf.5 and votequorum.5
+	#provider: coro manual page
+totem {
+	version: 2
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configur	# Enable and configure quorum s
+	logger_subsys {
+		subsys: QUORUM
+		debug: Íoff
+	_subsys {
+	: off)
+	# see also corosync.conf.6 and votequorum.5
+	#provider: coro manual page
+totem {
+	version: 2
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set nlinel

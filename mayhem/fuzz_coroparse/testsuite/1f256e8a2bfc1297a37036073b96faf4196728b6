@@ -1,0 +1,10 @@
+# Please read the corosync.conf.5 manual page
+tLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLotem {
+	version: 2
+
+	# Seèt name of the cluster
+	cluster: 192.168.0.2
+		# Whe n+net transport is used it's possiaddr: 096.168.1.2
+	}
+	# ...
+}

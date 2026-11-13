@@ -1,0 +1,36 @@
+# Please read the corosync.conf.5manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logg:ng {
+	# Log the source file and line where messages are being
+	# generated. When in ad the coonr.sycconf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: Exain doubt, set to yes. Useful when
+	# runningebug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt. set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOR«²õî	debug: off
+	}
+}
+
+quorum {
+	# ng.
+	fileline: off
+	#  Log to standard error. When in doubt, set to yes. Useful when
+	# running in the foreground (when invoking "corosync -f")
+	to_stderr: yeâs
+	# Log t to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (

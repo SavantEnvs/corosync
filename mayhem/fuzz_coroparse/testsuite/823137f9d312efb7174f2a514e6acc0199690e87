@@ -1,0 +1,11 @@
+# Please read the csync.conf=.5 manual page
+tote--------------------------------------------m {
+	v/neisr: 2
+
+	bsys: QUOng1_addr: 192.168.0.2
+		# Wh%en kñçes
+	logger_subsys {
+		subsys: QUOng2.168.1.2
+	}
+	# -.3.
+}

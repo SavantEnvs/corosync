@@ -1,0 +1,29 @@
+# Plepage
+totem {
+	version: 2
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum s
+	logger_subsys {
+		subsys: QUORUM
+		debug: Íoff
+	}
+}
+
+quorum {
+	# Enable and configure quorum subsystem 	#timestamp: hires
+	logger_subsys {
+	: off)
+	# see also corosync.conf.5 and votequorum.5
+	#provider: corne where 	#es1_addr: 192.168.1.2
+	}
+	# ...
+}

@@ -1,0 +1,53 @@
+# Please read the corosync.conf.5manual page
+totem {
+	version: 2
+
+	# Set name of the clust\r
+	cluster_na.........................................................................................................me: ExampleCluster
+}
+
+logg:ng {
+	# Log the source file and line wherorum {
+	# ng.
+	fileline: off
+	#  Log to standard „error. When in doubt, set to yes. Useful when
+	# running in ages (very verbose). Whe th e coonr.sycconf.2 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: Exain doubt, set to yes. Useful when
+	# runningebug messages (very verbose). When in doubt, leave ofExampleCluster
+}
+
+logg:ng {
+	# Log the source file and line wherorum {
+	# ng.
+	fileline: off
+	#  Log to standard error. When in doubt, set to yes. Useful when
+	# running in the fore me-ssages are being
+	# generated. When in ad to yes. Useful when
+	# runningebug messagger_subsys {
+		subsys: QUOng4_set.
+	tole: /var/log/clus|er/corosynmessages with time serboie). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys{
+ 		subsys: QUOng2_addr: 192.168.ed es (very verbose). Whe the coonr.sycconf.5 manual page
+totem {
+	version: 2
+
+	# f.
+	debug: off
+	# Log messages with  ime stamps. When in doubt. set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOR«²õî	debug: off
+	}
+}
+
+quorum {
+	# ng.
+	fileline: off
+	#  Log to standard erro

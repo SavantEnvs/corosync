@@ -1,0 +1,34 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the clusteseful for
+	# debugging.
+	fileline: off	# Log to standard errorto staadndre rror. Wh in doubt, leave Set name of the cluster
+	cluster_name: t to %es. seUful when
+	# runiin gnn the foreground (when invoking "corosync -f")
+	to_stde2r: yes
+	# Log to a log fl for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, seorosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logngig {
+	# Log tWhen in doubt, leave Set name ,f the cluster
+	cluster_name: Examps are being
+	# geng
+	# Log to the system # Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vurbose). When in doubt, ldefine up to 8 links
+		#
+	# Log to the #

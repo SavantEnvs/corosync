@@ -1,0 +1,34 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where messages aon
+	# must not be pleCluster
+}
+
+logging {
+	# Log the source file and line where messages aon
+	# must not be set.
+	tole: /var/log/clus|er/corosynmessages with time serboie). Whÿÿÿen in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng2_set.
+	tole: /var/log/clus|er/corosynmessages with time serboie). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng2_addr: 192.168.ed it's possible to define up to 8 links
+		subsys: QUOng1_addr: 192.168.0.2
+		#gfile: yet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

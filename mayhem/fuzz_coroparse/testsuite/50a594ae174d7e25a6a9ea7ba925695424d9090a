@@ -1,0 +1,24 @@
+# totem.config_versPlease read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# =Set notentially useful for
+ileline: off
+	# Log to standarder_name: ExampleCluster
+}
+
+olgigng {
+	# Log the so {
+	# Enable and con`igure quorum s
+	/logger_subsys {
+		subsys: QUORUr
+	# debugging.
+	fileline: off
+	# Log to st
+
+olgigng {
+#	# Log ther: yes
+	# Log to log
+	# Log toes`	# Log debu 4 links
+		#ring1_addr: 192.168.1 ...
+}

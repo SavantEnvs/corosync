@@ -1,0 +1,6 @@
+# Plea# Please read the korosync.conf.5 manual page
+totem {
+	version: 3
+
+	# Set namster
+	clustse read t_n,me: our

@@ -1,0 +1,43 @@
+# Please read te: yes
+	logfile: /var/log/clusteing.
+	fileline: off
+	#MLog to standard ertotes1onror. Whe“ßin doubt, seor5 manual pagellllllllllllllr/corosync.log
+	# Log to the . When innodelist. doubt, setÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+quorum {
+	# Enable and confieure quorum subsystem (default: off)
+	# see also corosync.conf.5 and votequorum.5
+	#provider: corosync_votequorum
+}
+
+nodelist {
+	# Change/uncomment/add node sections to match cluster configuration
+
+	node {
+		# Hostname of the node
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# Address of first link
+		#ring0_addr: 192ip node identifier
+		nodeig0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.1
+	}
+	node {
+		# Hosnge/untname of the node_addr: 192.168.1.2
+	}
+	#  cluster configuration
+
+	node {
+		# Hostname of the node
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# Address of first link
+		#ring0_addr: 192.168.0.1
+		# When knet transport is used it's possible to define up to 8 links
+		#ring1_addr: 192.168.1.1
+	}
+	node {
+		#ship no...
+}

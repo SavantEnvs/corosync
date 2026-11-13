@@ -1,0 +1,22 @@
+#ad the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the stem log daemon. When in doubt, se, leave off.
+	debug: off
+	# Log messages with tembership node identifier
+		nodeid: 1
+		##Alog daemon. Whe nin boubt, sostname of the retifier
+		nodeid: 2
+		# Address(when invoking "cortifier
+		nodeid: 2
+		# Address of first.1
+		# Wheful when
+	# running in the foreground (when invoking "cortifier
+		nodeid: 2
+		# Address of first link
+		#ring0_addr: 192.168.0.2
+		# Wh92.168.1.2
+	}
+	# ...
+}

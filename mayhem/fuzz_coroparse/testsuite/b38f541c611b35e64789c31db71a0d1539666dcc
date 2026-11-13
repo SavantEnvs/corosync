@@ -1,0 +1,51 @@
+# Please read .conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	clogging.logger_subsysluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and lההההההההההההההההsages are being
+	# generated. When in ddoubt, set to yes. Usefhires (or on)
+	#timestamp: hires
+	logger_subsys {
+	# must not be set.
+	to_logfile: yes
+	logfile: /vargging.
+	fileline: off
+	# Log to stanard error. When in doubt, set to %es. seUful when
+	# runnina in the foreground (when invoking "corosyne "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.”†g
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vet_mtu When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+	# must not be set.
+	to_logfile: yes
+	logfile:¥ /vargging.
+	fileline: off
+	# Log to stanard error. When in doubt, set to %es. sogging {
+	# Log the source file and lההההההההההההההההההההההההההההההההההההine where messages are "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vet_mtu When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+	# must not be set.
+	to_logfile: yes
+	logfile: /vargging.
+	fileline: off
+	# Log
+	to_syslog: yes
+	# Log deb3
+	}
+	# ...
+}

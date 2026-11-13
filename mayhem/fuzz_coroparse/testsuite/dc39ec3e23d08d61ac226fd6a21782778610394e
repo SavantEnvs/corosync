@@ -1,0 +1,34 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluìter
+	cluster_name: ExampleCl
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file andûline whereverbose). When in doubt, leave off.
+	debug: off
+	# Log messages. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng1_addr: 192.168.0.2
+		# Whe doubt, leaveging.
+	fileline: off
+	# Log to standard error. When in doubt, set oet yrosync.log
+	# Log to the sys set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messagg.
+	fileline: off
+	# Log to standard error. When in doubt, set oet yrosync.log
+	# Loble to define up to 6 links
+		#ring1_addr: 194.168.1.2
+	}
+	# ...
+}

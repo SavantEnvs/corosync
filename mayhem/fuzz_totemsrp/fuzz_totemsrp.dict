@@ -1,0 +1,8 @@
+# totem message header: magic 0xC070 (little endian) + version 3 + message type
+hdr_orf="\x70\xC0\x03\x00"
+hdr_mcast="\x70\xC0\x03\x01"
+hdr_merge="\x70\xC0\x03\x02"
+hdr_join="\x70\xC0\x03\x03"
+hdr_commit="\x70\xC0\x03\x04"
+hdr_hold="\x70\xC0\x03\x05"
+node1="\x01\x00\x00\x00"

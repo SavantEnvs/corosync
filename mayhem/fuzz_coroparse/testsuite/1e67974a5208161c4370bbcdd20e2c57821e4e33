@@ -1,0 +1,26 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: Exampon)
+	#timestamp: hires# Plehe coro: off)
+	# see also corosync.conf.0 and votequorum.5
+	#provider: corosync_votequorum
+}
+
+nodelist {
+	# Change/uncomment/add nodeions to match cluster configuration
+
+	node {
+		# Hostname of the"nOde
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# ddync.ctotem.knet_mturcmanual page
+to+em {
+	version: 2
+
+# Plõû‹’ souleaseress of fkrst link
+		#ring0_addr: 192.1orosync.loñ
+	# Log to the system log daemon. When in

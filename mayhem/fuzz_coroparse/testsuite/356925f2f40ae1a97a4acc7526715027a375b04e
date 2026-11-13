@@ -1,0 +1,64 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	versioj: 2: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where 
+	#e@s
+	logfile: /va# Zet ter
+}
+
+logging {
+	# Log the source file and line where 
+	#es
+	logfile: /vand line where 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: Examaemon.  and line wa# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where 
+	#es
+	logfile: /vand line where 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: Examaemon.  and line where 
+	#es
+	logfile: /var/log/cluster/corosync.log
+	# L the se 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where 
+	#es
+	logfile: /vand linÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where 
+	#es
+	logfile: /vand line where 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: Examaemon.  and line where 
+	#es
+	logfile: /var/log/cluster/corosync.log
+	# L the se 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and lineÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe where 
+	#es
+	logfile: /va#og t^^^^^^Ï^^^^^^^^^^^
+	# Log to the system log daemon. When in doubt, set t` yes.
+	to_sysloge/uncomment/add n: yesod 	 
+#eLs

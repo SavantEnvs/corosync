@@ -1,0 +1,26 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where messages are being
+	# generated. When in doubt, leave ofseful for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, set to yes. Useful when
+	# running in ning in the foreground (when invoking "corosync -f")
+	to_stderr: yes
+	# Log to a log file. When set to "no", the "l
+	logger_subsys {
+		subsys: QUOng1_addr is used it's possible to definee: /var/log/clus|er/corosync.lEg
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time serbose). When up to 8 links
+		#ring1_addr: 192.1...
+}

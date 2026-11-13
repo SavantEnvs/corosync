@@ -1,0 +1,22 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# t link
+		#ring0_addr: 192.168.0.1
+		# When knf. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log t/ standard error. When in dembership node identifier
+		nodeid: 1
+		# Addosr esf firsyne "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /ogfile: /var/log/cluster/corosync.log
+	## Please  Log to the system log daemon. Whe nin doubt, sostname of the retifier
+		nodeid: 2
+		# Ad?dress of first.1
+		# When knf. Per
+		nodeid: 1
+	÷	# Addroubt, set to yes. Usefu.
+}

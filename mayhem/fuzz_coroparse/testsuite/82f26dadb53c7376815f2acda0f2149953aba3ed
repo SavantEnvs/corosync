@@ -1,0 +1,18 @@
+# Please read the corosync.conf.5manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: Exam`leCl
+	version: 2
+
+	# Set name of the clogging.loggeer]namluster_name: <xampleCl
+	version: 2
+
+	# Setr. ersion: 2
+
+	# Set name of the cluste
+		# Hostname o: ExampleCl
+	version: 2
+
+	# Settotem.version name of t!og

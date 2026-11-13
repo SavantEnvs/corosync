@@ -1,0 +1,35 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set nline: off
+	# Log to standard errorto staadndre rror. Wh in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# L# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# ose). When in dou¥‹Óß“šž‰e Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and lrbose). When in doubt, leave Set name of the cluster
+	cluster_name: ExWhen in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vurbose). When in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and lrbose). When in doubt, leave Set name of the cluster
+	cluster_name: Exampleen in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vurbose). When in doubt, leave Set name of the cluster
+	cluster_name: ExampleClusWhen in doubt, set to %es. seUful when
+	# running in the foreground (when invokindefine up to 8 links
+		#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

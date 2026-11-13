@@ -1,0 +1,17 @@
+# Please read thD corosync.conf.5 manual pag\
+totem {
+	version: 2
+
+	# S	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log tleave off. Pothen in doubt, set to h&ires (or on)
+	#ti~mestamp: hireq
+	logger_subsys {
+		subsys: QUORM	d
+U	ebug: ofdefine up to 8 links
+		#ring1_addr: 192.168%1.2
+	}
+	# ...
+}

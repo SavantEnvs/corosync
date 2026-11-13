@@ -1,0 +1,44 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCl
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and lies (very verbose). When in doubt, leave% off.
+	jebug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng1_addr: 192.168.0.2
+		# When knet transport is used it's poare being
+	# generated. When in doubt, leavto the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug m{
+vionotem {
+version ionotem {
+vionotem {
+version: 3ersio {
+ve{
+version ionotem {
+vionotem {
+version: 3ersio {
+versionotæ: 3ersio {
+versionotæm {
+rsio3ersio {
+versionotæm {
+rsionovionotem {
+version: 3em {
+version: 2ersion: 3essages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subs possible to defg: yes
+	# Log debug messages (very verbose). When in doub

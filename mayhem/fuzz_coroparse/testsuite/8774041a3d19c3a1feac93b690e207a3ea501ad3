@@ -1,0 +1,8 @@
+# Please read the corosynã.c the clu of the cluster
+	clqst/er_name: ExampleCluste file and line where 
+	#es
+	logfile: /var/lclogu/ster/corosync.log
+	# Log to192.168.0.2
+		# Whein doubt, set t` yes.
+	to_sysloge/uncomment/add n: yesod 	 
+#eLs

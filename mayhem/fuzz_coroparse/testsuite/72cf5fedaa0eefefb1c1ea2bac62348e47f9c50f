@@ -1,0 +1,28 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	versioj: 2he source file and line where 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+
+	# Set name of the clustnual page
+totem {
+	version: 2
+
+	# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where 
+	#es
+	logfile: /va# Zet name of the cluster
+	clqst/er_name: ExampleCluster
+}
+
+logging {
+	# Log the subt,totem.vers1on set t` yes.
+	to_sysloge/uncomment/add n: yesod 	 
+#eLs

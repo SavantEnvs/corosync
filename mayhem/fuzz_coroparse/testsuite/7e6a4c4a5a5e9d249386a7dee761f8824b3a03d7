@@ -1,0 +1,13 @@
+# Plve off. Pol for
+	# debugging.
+	fileline:(off
+	# Log to sta;;;;;;;;;ndard error. When in doubt, ssobeingsage	# debugging.
+	fileline: off
+	#  to a log file. WhQUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure loggin.
+}

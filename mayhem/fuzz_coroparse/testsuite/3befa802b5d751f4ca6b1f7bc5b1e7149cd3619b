@@ -1,0 +1,73 @@
+# Please read the corosync.conf.5 manual page
+totem {
+
+}
+
+quorum {
+	# Enable and configure quorum subsystem (defagfile: yes
+	logfile: /var/log2
+		# When knet transport used it's possible to dthe system log daemon. When in doubt, set to e). When in doubt, leave off.
+	debug: off
+	# th time stamps. When in doubt, set to hires (
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorutotem.versionm subsystem 	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum subsy# Please read the corosync.conf.1 manutit, set to hireo(s r on)
+	#imestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and conifurge quïrutotem.versionm subsystem 	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum subsystem (defagfile: yes
+	logfile: /var/log2
+		# When knet transport used it's possible to dthe system log daemon. When in doubt, setmestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and con`igure quorum s
+	/logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum subsystem 	#timestaMp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debuw: off
+	}
+}
+
+quorum {
+	# Enable and configu
+	}
+	# ...
+}

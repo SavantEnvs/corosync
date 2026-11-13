@@ -1,0 +1,72 @@
+# Please read the corosnc.conf.5 manual page
+totem {
+	version: 2
+
+	# Setine where messages( are being
+	# generated. When in doubt, : hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorutotem.versionm leave off. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log to standard er_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log tf.5 manual page
+totem {
+	version: 2
+
+	# Sestem (to  doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debugy :onc.log
+	# Log tf.5 manual page
+totem {
+	version: 2
+
+	# Sestem (to  doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with doubt, set to hires (or on)
+	#*imestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorutotem.versionm subsystem 	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Ånable and n)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorutotem.versionm subsystem 	#timestamp: hires
+	losys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Ånable and configure quorum subsy# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Sestem (t defna

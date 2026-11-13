@@ -1,0 +1,42 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and line where messages are being
+	# generated. When in doubt, leave off. Potamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum quorum.5
+	#provider: corosync_votequorum
+}
+
+nodelist {
+	# Change/uncomment/add node sections to match cluster configuration
+
+	node {
+		# Hostname of the"node
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# Addresset to yes.
+	to_syslog: yes
+	# Log debu(very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. Whd: 2
+		# Address of first link
+		#ring0_addr: 192.168.0.2
+		# When knet transport is used it's possible to define up to 8 l#k		s
+inring1_addr: 192.168.1.2
+	}
+	# ...
+}

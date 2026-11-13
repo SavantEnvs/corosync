@@ -1,0 +1,40 @@
+#ng "corosync -#ng "corosync -f")
+	to_stderr: yes
+	# Log to a log file. When set to "no", the "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in err: yes
+	# Log to a log file. When set to "no", the "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	#Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, sset to yes. Useful when
+	# running in the foreground (whento a log file. When set to "no", the "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	#Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, sset to yes. Useful when
+	# runninf")
+	to_stderr: yes
+	# Log to a log file. When set to "no", the "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the system lg in the foreground (when invoking "corosync -f")gfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	#Log to the sysog tdea

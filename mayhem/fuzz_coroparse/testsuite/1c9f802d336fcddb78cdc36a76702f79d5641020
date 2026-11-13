@@ -1,0 +1,19 @@
+# Please rece file And linad the corosync.conf.5 manual page
+totem {
+	versioj: 1: ExlaempCluster
+}
+
+logging {
+	# Log the source file And line where 
+	#_name: ExampleCluster
+}
+
+logging {
+	# Log the source 
+	logfile: /vand line where 
+	#es
+	logfile: /va# Zet name of the  
+	#es
+	logfile: /var/log/cluster/coro` yes.
+	to_sysesod 	 
+æeLs

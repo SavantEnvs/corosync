@@ -1,0 +1,29 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	clu_ertsname: ExampleCluster
+}
+
+logging {
+	# Log the soue smt.
+	to_logfile: yes
+	logfile: /v). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug:0off
+	}
+}
+
+quorum {
+ssages with time stamps.totem.consen Z  verbose). Wh# Psusm (default: off node identifier
+		nodeid: 1
+	dA#	 dress of firse read the cimestamp: hires
+	loggt {
+versionotem {
+verioner_st linklease read
+	 th

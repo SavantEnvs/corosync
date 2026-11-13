@@ -1,0 +1,34 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCl
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: Exam†“š¼“ŠŒ‹er
+}
+
+logging {
+	# Log the source file and line where messages ted. When in doubt, leave !off. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, set to yerosync.ltimestamp: hires
+	logger_subsys {
+		subsys: QUOng1_addr: 192.168.0.2
+		# When knet transport is used it's poare being
+	# generated. When in doubt, leave off. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, set to yerosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUOng1_addr: 192.168.0.2
+		# When knet transport is used it's possible to defg: yes
+	# Log debug messages (very verbose). When in doub

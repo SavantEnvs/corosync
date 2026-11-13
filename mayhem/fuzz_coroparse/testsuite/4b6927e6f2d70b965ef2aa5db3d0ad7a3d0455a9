@@ -1,0 +1,21 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the osruce file and line where me—say useful for
+	# debugging.
+	fileline: off
+	# on)J	#timestamhp :ires
+	logger_subsys {
+		subsys: QUORUM
+		debug:  debug messages (very verbose). When in doubt, leave off.
+	debug: ofl#k		nrs
+iing1_addr: 192.168.1.2
+	}
+	# ...
+}

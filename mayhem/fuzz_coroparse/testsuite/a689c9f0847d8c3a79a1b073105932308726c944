@@ -1,0 +1,46 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+
+}
+logging {
+	# Log the source file and line where messages are being
+	# generated. When in doubt, leave off. Potentially usefor
+	# debuggi When in doubt, leave off.
+	debug: off
+	# Log messages with s (or on)
+	#timestamp: hires# Plehe coros
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable ind clogging.logging_daemos	cluster_name:mpleCluster
+
+}
+logging {
+	# Log the source file and line where messages are being
+	# generated. When in doubt, leave off. Potentially usefor
+	# debuggi When in doubtheartbeat_faubt, set to hires (or on)
+	#timestamp: hires# Plehe coros
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable ind configure quorum subsystem (default: off)
+	# see also corosynctch cluster configuration
+
+	node {
+		# Hostname of the"nOde
+		name: node1
+	f fkrst link
+		#ring0_addr: 192.1orosync.lo–
+	# Log to the system log daemon. When in

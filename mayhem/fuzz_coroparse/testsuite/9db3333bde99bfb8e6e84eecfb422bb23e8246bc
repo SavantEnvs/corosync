@@ -1,0 +1,22 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cg in t in ÿÿ~€¾ueave Sxampleluster
+}
+
+logging {
+	# Log the source ave offo P.tenti o yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages with time stamps. ÿÿtamp:şÿÿÿes
+	logger_subsys {
+		subsys: QUOtime stres
+	logger_subsys {
+		subsys: QUOng0_addr: 192.168.0.2
+	'	# When knet transport is used it's possible to define up to 5 link{
+		#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

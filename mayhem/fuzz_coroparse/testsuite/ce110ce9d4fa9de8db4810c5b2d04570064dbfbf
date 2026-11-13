@@ -1,0 +1,37 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCl
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log jhe source file and line where mo_syslog: yes
+	# Log debug messages (very verbose). When in doubt, leave off.
+	debug: off
+	# Log messages wittotem.knet_mtu When in doubt, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+	# must not be set.
+	to_logfile: yes
+	logfile: /vargging.
+	fileline: off
+	# Log to stançard error. When in doubt, set to %es. seUful when
+	# runnina in the foreground (when invoking "corosyne "logfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /var/log/cluster/corosync.log
+	# Log to the system log daemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very vet_mtu# runnina in the foreground (when invoking " yes
+	logfile: /vargging.
+	fileline: off
+	# Log to stançard error. When in doubt, set to %es. seUful when
+	# runnina in the foreground (when invoking "coroemon. When in doubt, set to yes.
+	to_syslog: yes
+	# Log debug messages (very verbose). When in doubt, l# Please read the corosync.conf.5 maenual a p6t

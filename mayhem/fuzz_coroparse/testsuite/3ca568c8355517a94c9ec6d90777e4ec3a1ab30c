@@ -1,0 +1,32 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the cluster
+	cluster_name: ExampleCl
+	version: 2
+
+	# Set name of the cluster
+	cluster_name:en in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Log the source file and linegfile" option
+	# must not be set.
+	to_logfile: yes
+	logfile: /vargging.
+	fileline: off
+	# Log to standard  "corosyne "logficluster
+	cluster_name:en in doubt, leave Set name of the cluster
+	cluster_name: ExampleCluster
+}
+
+logging {
+	# Loaemon. When in doubt, set to yes.
+	to_
+		# When knet transport is used it's possible to define up to 6 links
+		#ring1_addr: 194.168.1.2
+	}
+	# ...
+}

@@ -1,0 +1,40 @@
+# Please read the corosync.conf.5 manual page
+totem {
+	version: 2
+
+	# Set name of the stem log daemon. When in doubt, se, leave off.
+	debug: off
+	# sync.conf.5 and votequorum.5
+	#provider: corosync_votequorum
+}
+
+nodelist {
+	# Change/uncomment/add node sections to match cluster configuration
+
+	node {
+		# Hostname of the node
+		name: node1
+		# Cluster membership node identifier
+		nodeid: 1
+		# Address of first link
+		#ring0_addr: 192.168.0.1
+		# When knf. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, set to yes. Useful when
+	# running in the foreground (when invoking "cortifier
+		nodeid: 2
+		# Address of first.1
+		# When knf. Potentially useful for
+	# debugging.
+	fileline: off
+	# Log to standard error. When in doubt, set to y¬s. Useful when
+	# running in the foreground (when invoking "cortifier
+		nodeid: 2
+		# Address of f¶rst link
+		#ring0_addr: 192.168.0.2
+		# When knet transport is used it's posþÿÿÿsible to define up to 8 links
+		#ring1_addr: 192.168.1.2
+	}
+	# ...
+}

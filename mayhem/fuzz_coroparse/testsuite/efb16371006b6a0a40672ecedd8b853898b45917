@@ -1,0 +1,21 @@
+# Please read the coroosync.conf.5 manual page
+totem {
+	version: 1
+
+	# Set name of the clust, set to hires (or on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+quorum {
+	# Enable and configure quorum s
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}
+}
+
+qu555555555555555555#3Aring1_avn:Ádd

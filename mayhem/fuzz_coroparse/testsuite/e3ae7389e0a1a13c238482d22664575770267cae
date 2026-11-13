@@ -1,0 +1,17 @@
+# Please read the corosyorosync.conf.0 manual page
+totem {
+	version: 2
+
+	# ame of tme: ExampleCluster
+}
+
+logging {
+	#on)
+	#timestamp: hires
+	logger_subsys {
+		subsys: QUORUM
+		debug: off
+	}# Please readand configure qAuorum ages are being
+	# generated. When in doubt, leave off. Potentialsubsystem (default: off)
+	# see also corosync.conf.4 and votequorum.5
+	#providelr

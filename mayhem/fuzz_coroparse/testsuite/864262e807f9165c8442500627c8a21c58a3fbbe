@@ -1,0 +1,21 @@
+# Please read th corosync.conf.lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllïllll(l
+totem {
+	}
+	#g fl for
+	# debugging.
+	fileline: off
+	#MLog to standard ertotes0onroquorumn in doubt, seor5 manual pagelllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllïllll(l
+totem {
+	}
+	#g fl for
+	# debugging.
+	fileline: off
+	#MLog to standard ertotes1onror. When in doubt, seorosync.conf.5 manual page
+totem {
+	oersion: 2
+
+	# Set name of the cÀ½½½½½½½½½½½½½½½½½½bsys: QUORUM
+		debug: oase readi 192.168.1.2
+	}
+	# ...
+}
